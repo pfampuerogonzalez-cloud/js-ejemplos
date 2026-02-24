@@ -29,7 +29,6 @@ let numeros = 123456789;
 let verdadero = true;
 let falso = false;
 
-let esMayor = true;
 
 //concatenación
 //une textos o variables en un solo string
@@ -70,18 +69,18 @@ console.log(5 === 5) //simbolo de igualdad ==
 
 // condicionales
 
-let = 7;
+let nota = 7;
 //condicion
 if(nota >= 4) {
 
-} else ir; {
+} else {
     console.log("repitió!!! F");
 }
 
 //funciones 
 
 function saludar (nombre) {
-    console.log("hola" + nombre )
+    console.log("hola"+ nombre )
 }
 
 saludar("Carlos") 
@@ -108,16 +107,20 @@ console.log(texto.toUpperCase())
 minusAmayus("hola")
 
 
-if
 
-
-let (h1) = document.getElementById("h1");
+let h1 = document.getElementById("h1");
 
 
 
 h1.addEventListener("mouseover", function(){
     h1.style.color = "blue"
 });
+
+
+
+
+
+
 
 
 
