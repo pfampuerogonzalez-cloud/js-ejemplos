@@ -73,14 +73,14 @@ let nota = 7;
 //condicion
 if(nota >= 4) {
 
-} else {
+} else  {
     console.log("repitió!!! F");
 }
 
 //funciones 
 
 function saludar (nombre) {
-    console.log("hola"+ nombre )
+    console.log("hola "+ nombre )
 }
 
 saludar("Carlos") 
