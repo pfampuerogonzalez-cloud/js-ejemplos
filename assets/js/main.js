@@ -58,13 +58,68 @@ console.log(a / b);
 console.log(a % b);
 
 
-let h1 = document.getElementById("h1");
+
+
+//operadores de comparación
+
+console.log(5 < 3) // simbolo de menor que <
+console.log(3 > 5) // simbolo de mayor que >
+console.log(5 === 5) //simbolo de igualdad ==
+
+
+
+// condicionales
+
+let = 7;
+//condicion
+if(nota >= 4) {
+
+} else ir; {
+    console.log("repitió!!! F");
+}
+
+//funciones 
+
+function saludar (nombre) {
+    console.log("hola" + nombre )
+}
+
+saludar("Carlos") 
+saludar ("Marta") 
+saludar("José") 
+saludar("Pepe") 
+saludar("Mauro") 
+saludar("Fede") 
+
+function Mayor(edad) {
+    if (edad>=18){
+        console.log("puedes ver el contenido")
+    } else {
+        console.log("menor de edad no pueder ver el contenido!!!")
+    }
+};
+
+Mayor(23);
+
+function minusAmayus(texto) {
+console.log(texto.toUpperCase())
+}
+
+minusAmayus("hola")
+
+
+if
+
+
+let (h1) = document.getElementById("h1");
 
 
 
 h1.addEventListener("mouseover", function(){
     h1.style.color = "blue"
 });
+
+
 
 
 
